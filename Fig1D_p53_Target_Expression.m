@@ -96,14 +96,14 @@ x_CT_m=xint(10,:);
 x_CT=xint(11,:);
 
 %% plots
-% Fig. 1D; Fig. S1
+% (1) Fig. 1D; Fig. S1
 figure; 
 plot(tspan,x_p53,tspan,x_PUMA,tspan,x_p21,'LineWidth',5)
 xlabel('Time (hr)'); ylabel('Simulated concentration') 
 legend('p53','PUMA','p21')
 ylim([0 0.4])
 
-% Fig. S2
+% (2) Fig. S2
 % figure; 
 % plot(tspan,x_p53,tspan,x_PUMA,tspan,x_p21,tspan,x_EGFR,tspan,x_CT,'LineWidth',5)
 % xlabel('Time (hr)'); ylabel('Simulated concentration') 
