@@ -1,10 +1,10 @@
 %% Description
 % This MATLAB program aims to plot single-parameter bifurcation diagrams 
 % for the ODE model of the p53-Mdm2 system proposed by L. Xiong and A.
-% Garfinkel (related to Fig. 1F). 
+% Garfinkel (Fig. 2D). 
 
 %% Note: 
-% Please refer to an additional file (Linear_Stability_Analysis.m) for 
+% Please refer to an additional file (Hopf_Bifurcation_Analysis.m) for 
 % details of calculating equilibrium p53 concentrations. 
 
 function main

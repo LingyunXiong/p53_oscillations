@@ -2,7 +2,7 @@
 % This MATLAB program aims to simulate the mathematical model of the
 % p53-Mdm2 system proposed by L. Xiong and A. Garfinkel, to evaluate the
 % sensitivity of the oscillatory behavior of the p53 to parameter values,
-% with a focus on initial/transient response. 
+% with a focus on initial/transient response (Fig. 2C). 
 
 function main
 %% Model Parameters

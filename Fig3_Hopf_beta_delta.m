@@ -1,6 +1,7 @@
 %% Description
 % This MATLAB program aims to visualize Hopf bifurcation region in
-% beta-delta parameter space where p53 oscillations can be self-sustained.
+% beta-delta parameter space where p53 oscillations can be self-sustained
+% (Fig. 3; Fig S3A-B).
 
 function main
 %% Load Data

@@ -13,7 +13,7 @@ epsilon = 0.7;
 phi = 1.6;
 delta = 0.75;
 
-% alternative parameter values (related to Fig. 1D)
+% alternative parameter values (related to Fig. 2B)
 % alpha = 0.2;
 
 % set parameter vector
