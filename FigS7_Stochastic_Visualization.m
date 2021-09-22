@@ -8,11 +8,11 @@
 
 function main
 %% Near Hopf boundary (example of noise-induced oscillations)
-A_0 = importdata('Data/DataTable_near_boundary_No_Noise.txt');
+A_0 = importdata('Data/DataTable_NearHopfBoundary_No_Noise.txt');
 mtx_0 = A_0.data; tspan_0 = mtx_0(:,1);
 x_p53_0 = mtx_0(:,2); x_Mdm2_0 = mtx_0(:,4);
 
-A = importdata('Data/DataTable_near_boundary_5percent_Noise.txt');
+A = importdata('Data/DataTable_NearHopfBoundary_5percent_Noise.txt');
 mtx = A.data; tspan = mtx(:,1);
 x_p53 = mtx(:,2); x_mdm2 = mtx(:,3); x_Mdm2 = mtx(:,4);
 
@@ -32,11 +32,11 @@ title('Phase plane portrait (Near Hopf boundary)')
 xlabel('p53 concentration'); ylabel('Mdm2 concentration') 
 
 %% Loss of ATM 
-% C_0 = importdata('Data/DataTable_hypoATM_No_Noise.txt');
+% C_0 = importdata('Data/DataTable_LossOfATM_No_Noise.txt');
 % mtx_0 = C_0.data; tspan_0 = mtx_0(:,1);
 % x_p53_0 = mtx_0(:,2); x_Mdm2_0 = mtx_0(:,4);
 % 
-% C = importdata('Data/DataTable_hypoATM_5percent_Noise.txt');
+% C = importdata('Data/DataTable_LossOfATM_5percent_Noise.txt');
 % mtx = C.data; tspan = mtx(:,1);
 % x_p53 = mtx(:,2); x_mdm2 = mtx(:,3); x_Mdm2 = mtx(:,4);
 % 
@@ -56,11 +56,11 @@ xlabel('p53 concentration'); ylabel('Mdm2 concentration')
 % xlabel('p53 concentration'); ylabel('Mdm2 concentration') 
 
 %% Hyperactive ATM 
-% D_0 = importdata('Data/DataTable_hyperATM_No_Noise.txt');
+% D_0 = importdata('Data/DataTable_HyperactiveATM_No_Noise.txt');
 % mtx_0 = D_0.data; tspan_0 = mtx_0(:,1);
 % x_p53_0 = mtx_0(:,2); x_Mdm2_0 = mtx_0(:,4);
 % 
-% D = importdata('Data/DataTable_hyperATM_5percent_Noise.txt');
+% D = importdata('Data/DataTable_HyperactiveATM_5percent_Noise.txt');
 % mtx = D.data; tspan = mtx(:,1);
 % x_p53 = mtx(:,2); x_mdm2 = mtx(:,3); x_Mdm2 = mtx(:,4);
 % 
@@ -80,11 +80,11 @@ xlabel('p53 concentration'); ylabel('Mdm2 concentration')
 % xlabel('p53 concentration'); ylabel('Mdm2 concentration') 
 
 %% No DSBs
-% B_0 = importdata('Data/DataTable_baseline_No_Noise.txt');
+% B_0 = importdata('Data/DataTable_NoDSBs_No_Noise.txt');
 % mtx_0 = B_0.data; tspan_0 = mtx_0(:,1);
 % x_p53_0 = mtx_0(:,2); x_Mdm2_0 = mtx_0(:,4);
 % 
-% B = importdata('Data/DataTable_baseline_5percent_Noise.txt');
+% B = importdata('Data/DataTable_NoDSBs_5percent_Noise.txt');
 % mtx = B.data; tspan = mtx(:,1);
 % x_p53 = mtx(:,2); x_mdm2 = mtx(:,3); x_Mdm2 = mtx(:,4);
 % 

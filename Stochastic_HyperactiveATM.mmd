@@ -1,10 +1,11 @@
 <Document>
 <Version> 22 </Version>
 <JMadonnaVersion> 10.2.8 </JMadonnaVersion>
-<Bounds> 0 0 1440 847 </Bounds>
+<Bounds> 0 0 1478 934 </Bounds>
 <NotesEditor>
 <jeditorpane>
 <size>13</size><family>Lucida Grande</family>
+
 
 
 
@@ -27,7 +28,7 @@ DT = 0.001
 {Type Equations Here.}
 
 <size>20</size>X' = alpha - beta*Y*(X/(gamma + X)) 
-R' = sigma*(X/(kappa + X)) - epsilon*R+0*noise
+R' = sigma*(X/(kappa + X)) - epsilon*R+noise
 Y' = phi*R - delta*Y
 
 Init X=0.2533
@@ -50,11 +51,11 @@ noise = random(a,b)<size>12</size>
 
 
 
+
 </jeditorpane>
 </jmadonna.EquationPanel>
 
 <imethod> rk4 </imethod>
-<Param> DT 0.1 </Param>
 <jmadonna.ParameterPanel>
 <DocPanel>
 </DocPanel>
@@ -80,7 +81,6 @@ Graph 1
 <graph.COutputView>
 <Name> Graph </Name>
 <GraphToolBar>
-<Table> 1 </Table>
 <Grid> 1 </Grid>
 </GraphToolBar>
 <Plot>
@@ -111,7 +111,7 @@ Graph 1
 <VI_Y2AXIS> false </VI_Y2AXIS>
 </OV_YVAR_I>
 </OV_YVARS>
-<OV_TABLE> true </OV_TABLE>
+<OV_TABLE> false </OV_TABLE>
 <OV_FFT> false </OV_FFT>
 <OV_COLORS> true </OV_COLORS>
 <OV_STYLES> false </OV_STYLES>
