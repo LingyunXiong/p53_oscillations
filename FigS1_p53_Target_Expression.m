@@ -1,7 +1,7 @@
 %% Description
 % This MATLAB program aims to simulate the mathematical model of the
 % p53-Mdm2 system proposed by L. Xiong and A. Garfinkel, to evaluate the
-% expression profiles of representative p53 targets (Fig. 1D).
+% expression profiles of representative p53 targets (Fig. S1).
 
 function main
 %% Baseline parameters for the p53-Mdm2 system
@@ -31,8 +31,17 @@ Phi_2 = 0.32;
 Delta_2 = 0.06;
 
 %% Modify parameter below for altered conditions
-% alpha = 0.2; % Fig. 1D (middle panel)
-% beta = 1; % Fig. 1D (right panel)
+Psi_1 = 0.45/2; % Fig. S1A
+
+% sigma = 0.01; % Fig. S1B
+% Psi_1 = 0.01; % Fig. S1B
+% Psi_2 = 0.01; % Fig. S1B
+% Psi_3 = 0.01; % Fig. S1B
+% Psi_4 = 0.01; % Fig. S1B
+
+% delta = 0.25; % Fig. S1C
+% beta = 16; % Fig. S1C
+% sigma = 0.45*2; % Fig. S1D
 
 %% Set parameter vector
 P=[alpha, beta, gamma, sigma, kappa, epsilon, phi, delta, Psi_1, h_1, K_1, Gamma_1, Phi_1, Delta_1, Psi_2, h_2, K_2, Gamma_2, Phi_2, Delta_2];
@@ -42,7 +51,6 @@ Xo=[0.1, 0.06, 0.13, 0.01, 0.05, 0.01, 0.05];
 % [p53]_i, [MDM2 transcript]_i, [Mdm2]_i, 
 % [p21 transcript]_i, [p21]_i,
 % [PUMA transcript]_i, [PUMA]_i
-
 
 %% ODE calls
 tspan=0:.1:48;
