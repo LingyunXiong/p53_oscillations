@@ -1,10 +1,11 @@
 <Document>
 <Version> 22 </Version>
 <JMadonnaVersion> 10.2.8 </JMadonnaVersion>
-<Bounds> 0 0 1478 934 </Bounds>
+<Bounds> 0 0 1440 847 </Bounds>
 <NotesEditor>
 <jeditorpane>
 <size>13</size><family>Lucida Grande</family>
+
 
 
 
@@ -26,7 +27,7 @@ DT = 0.001
 {Type Equations Here.}
 
 <size>20</size>X' = alpha - beta*Y*(X/(gamma + X)) 
-R' = sigma*(X/(kappa + X)) - epsilon*R+noise
+R' = sigma*(X/(kappa + X)) - epsilon*R + noise
 Y' = phi*R - delta*Y
 
 Init X=0.1818
@@ -40,11 +41,12 @@ sigma = 0.45;
 kappa = 1;
 epsilon = 0.7;
 phi = 1.6;
-delta = 0.75;<size>12</size>
+delta = 0.75;
 
-<size>20</size>a=0.048*R
+a=0.048*R
 b=0.052*R
 noise = random(a,b)<size>12</size>
+
 
 
 
