@@ -50,7 +50,7 @@ xlabel('p53 concentration'); ylabel('Mdm2 concentration')
 % figure;
 % scatter(x_p53((length(tspan)-24000):length(tspan)),x_Mdm2((length(tspan)-24000):length(tspan)),20,'k','filled'); hold on
 % scatter(x_p53_0((length(tspan_0)-240):length(tspan_0)),x_Mdm2_0((length(tspan_0)-240):length(tspan_0)),20,'r','filled')
-% xlim([0.036 0.046]); ylim([0.095 0.105])
+% xlim([0 0.1]); ylim([0.05 0.15])
 % legend('5% intrinsic noise','No noise')
 % title('Phase plane portrait (Loss of ATM)')
 % xlabel('p53 concentration'); ylabel('Mdm2 concentration') 
@@ -74,7 +74,7 @@ xlabel('p53 concentration'); ylabel('Mdm2 concentration')
 % figure;
 % scatter(x_p53((length(tspan)-24000):length(tspan)),x_Mdm2((length(tspan)-24000):length(tspan)),20,'k','filled'); hold on
 % scatter(x_p53_0((length(tspan_0)-240):length(tspan_0)),x_Mdm2_0((length(tspan_0)-240):length(tspan_0)),20,'r','filled')
-% xlim([0.22 0.26]); ylim([0.19 0.23])
+% xlim([0.2 0.3]); ylim([0.15 0.25])
 % legend('5% intrinsic noise','No noise')
 % title('Phase plane portrait (Hyperactive ATM)')
 % xlabel('p53 concentration'); ylabel('Mdm2 concentration') 
@@ -98,7 +98,7 @@ xlabel('p53 concentration'); ylabel('Mdm2 concentration')
 % figure;
 % scatter(x_p53((length(tspan)-24000):length(tspan)),x_Mdm2((length(tspan)-24000):length(tspan)),20,'k','filled'); hold on
 % scatter(x_p53_0((length(tspan_0)-240):length(tspan_0)),x_Mdm2_0((length(tspan_0)-240):length(tspan_0)),20,'r','filled')
-% xlim([0.02 0.03]); ylim([0.09 0.1])
+% xlim([0 0.1]); ylim([0.05 0.15])
 % legend('5% intrinsic noise','No noise')
 % title('Phase plane portrait (No DSBs)')
 % xlabel('p53 concentration'); ylabel('Mdm2 concentration') 
